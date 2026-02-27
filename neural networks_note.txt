@@ -1,0 +1,30 @@
+neural networks
+
+a neuron is a thing that holds a number btw 0 and 1
+this number inside neuron which is in btw 0 and 1 is called activation and neuron is lit up if number increased to 1 
+for an image let it be 28 times 28, 784 neurons make the one layer
+since row and column are same each row (column) is put in a line making first layer
+
+last layer has 10 digits each as 0 to 9 as output
+the layers in btw first layer and output layer is called hidden layers
+
+we use weights as connections . each connection is from each neuron in first layer to each neuron in second layer
+
+weights are values ok
+compute sum of each weight times activated neuron in first layer 
+
+there are positive and negative weights ok
+
+cost of a single training example is the square of the difference between activation values we want and we got trashed
+
+
+what we mean by a network learning is that minimizing a cost function
+what we mean by learning is which weights and biases minimizes the cost function
+backpropagation is an algorithm to compute gradient
+
+gpt stands for generative pretrained transformer - bots that generate new text
+pretrained refers to how the model went through a process of learning
+transformer is a specific type of neural network
+
+want to createa bot for incidents problems and events alerts 
+
